@@ -577,7 +577,6 @@ strong {
   color: white;
   text-align: center;
   min-width: 680px;
-  min-height: 680px;
   padding: 100px 100px 50px 100px;
   z-index: 999;
 }
@@ -1565,12 +1564,6 @@ blockquote::before {
   .carousel-image {
     min-height: 520px;
   }
-
-  #hero-slide .carousel-caption {
-    padding-right: 50px;
-    min-width: inherit;
-    min-height: inherit;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1592,11 +1585,6 @@ blockquote::before {
 
   h5 {
     font-size: 20px;
-  }
-
-  #hero-slide .carousel-caption {
-    min-width: inherit;
-    padding-bottom: 30px;
   }
 
   .carousel-control-next-icon,
